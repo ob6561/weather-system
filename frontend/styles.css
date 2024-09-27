@@ -1,0 +1,25 @@
+body {
+    background-color: black; /* Set background color to black */
+    color: white; /* Text color for visibility */
+    font-family: Arial, sans-serif; /* Font styling */
+  }
+  
+  h1 {
+    text-align: center; /* Center the heading */
+    margin: 20px; /* Space around heading */
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: space-around; /* Space charts evenly */
+    flex-wrap: wrap; /* Allow wrapping of charts */
+    max-width: 1200px; /* Max width for the charts */
+    margin: auto; /* Center the charts container */
+  }
+  
+  canvas {
+    max-width: 400px; /* Max width for individual charts */
+    margin: 20px; /* Space around charts */
+    background-color: #111; /* Canvas background */
+  }
+  
